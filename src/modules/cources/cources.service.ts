@@ -30,7 +30,7 @@ export class CourcesService {
     return this.prisma.cource.findUniqueOrThrow({ where: { id: id } });
   }
 
-  public update(id: number, updateCourceDto: UpdateCourceDto) {
+  public update(id: number) {
     return `This action updates a #${id} cource`;
   }
 

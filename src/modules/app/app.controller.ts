@@ -56,9 +56,6 @@ export class AppController {
           error: 'It seems user already existed',
         },
         HttpStatus.BAD_REQUEST,
-        {
-          cause: err as Error,
-        },
       );
     }
   }

@@ -31,8 +31,8 @@ export class CourcesController {
   }
 
   @Patch(':id')
-  update(@Param('id') id: string, @Body() updateCourceDto: UpdateCourceDto) {
-    return this.courcesService.update(+id, updateCourceDto);
+  update(@Param('id') id: string) {
+    return this.courcesService.update(+id);
   }
 
   @Delete(':id')

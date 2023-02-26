@@ -42,7 +42,7 @@ describe('AppController', () => {
 
   const userLoginAuth: UserCleanWithPassword = {
     ...userLoginMock,
-    roles: [UserRole.GHOST],
+    role: 'GHOST',
   };
 
   beforeEach(async () => {

@@ -1,5 +1,5 @@
 // app/prisma/seed.ts
-import { PrismaClient, CourcePart, CourceLesson } from '@prisma/client';
+import { PrismaClient, CourceLesson } from '@prisma/client';
 import { faker } from '@faker-js/faker';
 
 const prisma = new PrismaClient();

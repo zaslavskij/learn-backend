@@ -9,7 +9,7 @@ import { UserModule } from '../user/user.module';
 import { AuthModule } from '../auth/auth.module';
 import LogsMiddleware from '@/middleware/logs.middleware';
 import { getMongoConfig } from '@/orms/mongoose/mongo.config';
-import { ManagementModule } from '../management/management.module';
+
 import { CourcesModule } from '../cources/cources.module';
 
 @Module({
@@ -27,7 +27,6 @@ import { CourcesModule } from '../cources/cources.module';
     UserModule,
     AuthModule,
     LoggerModule,
-    ManagementModule,
     CourcesModule,
   ],
   controllers: [AppController],
